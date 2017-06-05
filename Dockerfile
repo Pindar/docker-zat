@@ -35,4 +35,5 @@ ENV LC_ALL en_US.UTF-8
 
 RUN curl -sL https://deb.nodesource.com/setup | sudo bash - && \
 	 apt-get install -y nodejs
+EXPOSE 4567	 
 WORKDIR /data
